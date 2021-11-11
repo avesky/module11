@@ -32,7 +32,7 @@ class Person:
     def display(self):
         return str(self.last_name) + ", " + str(self.first_name) + '\n'+ self.student.display()
 
-class Student:
+class Student(Person):
     """Student Class"""
     def __init__(self, maj, strt_dt, gpa):
         self.major = maj
