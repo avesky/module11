@@ -45,7 +45,7 @@ class Student(Person):
         self.student_gpa = gpa
 
     def display(self):
-        return(self.last_name +  ', ' + self.first_name +  ': ''(' + str(self.student_id) + ') ' + self.major + ' ' + 'GPA ' + str(self.student_gpa))
+        return self.last_name +  ', ' + self.first_name +  ': ''(' + str(self.student_id) + ') ' + self.major + ' ' + 'GPA ' + str(self.student_gpa)
 
 # Driver
 my_student = Student(900111111, 'Song', 'River')
